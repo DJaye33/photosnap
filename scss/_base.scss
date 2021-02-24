@@ -1,0 +1,96 @@
+//////////////////////////////////////////
+// Basic Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-primary-pure-black: #000000;
+  --color-primary-light-grey: #dfdfdf;
+  --color-primary-pure-white: #ffffff;
+  // Linear Gradient Accent Colors
+  --color-primary-accent-1: #ffc593;
+  --color-primary-accent-2: #bc7198;
+  --color-primary-accent-3: #5a77ff;
+  // Font Family
+  --font-stack-DM: "DM Sans", sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-stack-DM);
+}
+// End Basic Reset
+//////////////////////////////////////////
+// Global Styles
+// Headings
+h1,
+h2 {
+  font-weight: bold;
+  font-size: 3.2rem;
+  line-height: 4rem;
+  letter-spacing: 0.333rem;
+  margin-bottom: 1.6rem;
+  text-transform: uppercase;
+}
+// End Headings
+// Buttons
+.btn {
+  font-family: var(--font-stack-DM);
+  font-weight: bold;
+  line-height: 1.6rem;
+  letter-spacing: 0.2rem;
+  border: none;
+  outline: transparent;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn--lrg {
+  padding: 1.4rem 0;
+  width: 100%;
+}
+
+.btn--blk {
+  color: var(--color-primary-pure-white);
+  background-color: var(--color-primary-pure-black);
+  transition: background-color 0.2s;
+}
+
+.btn--blk:hover {
+  color: var(--color-primary-pure-black);
+  background-color: var(--color-primary-light-grey);
+}
+// End Buttons
+// Links
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link--lrg {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.link--blk {
+  color: var(--color-primary-pure-black);
+}
+// End Links
+// End Global Styles
+//////////////////////////////////////////

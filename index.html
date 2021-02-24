@@ -19,7 +19,44 @@
     <title>Frontend Mentor | Photosnap Website Challenge</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <nav class="navbar">
+      <div class="navbar__branding">
+        <a href="#" class="navbar__branding-link"
+          ><img
+            src="/assets/shared/desktop/logo.svg"
+            alt="photosnap logo"
+            class="navbar__branding-logo"
+        /></a>
+      </div>
+      <div class="navbar__navigation">
+        <a href="#" class="navbar__navigation-link link--lrg link--blk"
+          >Stories</a
+        >
+        <a href="#" class="navbar__navigation-link link--lrg link--blk"
+          >Features</a
+        >
+        <a href="#" class="navbar__navigation-link link--lrg link--blk"
+          >Pricing</a
+        >
+        <hr class="navbar__navigation-rule" style="opacity: 0.25" />
+        <button class="navbar__navigation-btn btn btn--lrg btn--blk">
+          Get an Invite
+        </button>
+      </div>
+      <div class="navbar__menu">
+        <img
+          src="/assets/shared/mobile/menu.svg"
+          alt="menu open"
+          class="navbar__menu-open menu-item"
+        />
+        <img
+          src="/assets/shared/mobile/close.svg"
+          alt="menu close"
+          class="navbar__menu-close menu-item"
+          hidden
+        />
+      </div>
+    </nav>
 
     <script src="scripts/main.js"></script>
   </body>
